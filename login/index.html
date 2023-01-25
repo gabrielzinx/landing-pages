@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Hi, Welcome to back!</h1>
+        <div class="content-1">
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="email" placeholder="Your Email" required autofocus>
+            </div>
+            <div class="input">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="password" placeholder="Your Password" required>
+            </div>
+            <div class="others">
+                <div>
+                    <input type="checkbox" name="remember" id="remember" class="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" id="button-login" class="button-login">Login</button>
+        </div>
+        <h2>Or With</h2>
+        <div class="content-2">
+            <button id="login-facebook" class="login-facebook"><i class="icon-facebook"></i>Login With Facebook</button>
+            <button id="login-google" class="login-google"><i class="icon-google"></i>Login With Google</button>
+        </div>
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+    </form>
+</body>
+</html>
