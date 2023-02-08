@@ -769,6 +769,68 @@ main .container-2 {
     margin-left: 24px;
 }
 
+footer {
+    background-color: #141642;;
+}   
+
+footer .bg {
+    display: flex;
+    background: radial-gradient(72.18% 43.92% at 50% 93.92%, #A40A79 0%, #00000000 100%), radial-gradient(37.71% 30.53% at 4.78% 4.31%, #008DF3 0%, #00000000 100%), radial-gradient(51.22% 43.71% at 98.22% 1.22%, #DC18C8 0%, #00000000 100%), #162bed80;
+    box-shadow: 0px 8px 24px #8187bd26;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .bg .container-1 a {
+    font-family: "Oks-Free", "Arial", "Helvetica", "Sans-Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 160%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .bg nav {
+    display: flex;
+    gap: 50px;
+}
+
+footer .bg nav a {
+    font-family: "Montserrat", "Arial", "Helvetica", "Sans-Serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration: none;
+    transition: 0.2s;
+    color: #FFFFFF;
+}
+
+footer .bg nav a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+footer .bg .container-2 {
+    display: flex;
+    gap: 20px;
+}
+
+footer .bg .container-2 p {
+    font-family: "Montserrat", "Arial", "Helvetica", "Sans-Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #C7C7C7;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
 ::-webkit-scrollbar {
     width: 11px;
 }
