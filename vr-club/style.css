@@ -662,7 +662,7 @@ main .container-2 {
 .section-gallery .content div .text p {
     font-family: "Montserrat", "Arial", "Helvetica", "Sans-Serif";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 118%;
     text-transform: uppercase;
@@ -678,6 +678,15 @@ main .container-2 {
 
 .section-gallery .content div .interact div {
     filter: brightness(100);
+    transition: 0.2s;
+}
+
+.section-gallery .content div .interact .arrow.left:hover {
+    transform: scale(1.1);
+}
+
+.section-gallery .content div .interact .arrow.right:hover {
+    transform: scale(-1.1, 1.1);
 }
 
 .section-gallery .content div .interact p {
@@ -692,6 +701,72 @@ main .container-2 {
 
 .section-gallery .content div .interact p strong {
     font-size: 26px;
+}
+
+.section-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-contact .container-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.section-contact .container-1 h2 {
+    font-family: "Dela Gothic One", "Arial", "Helvetica", "Sans-Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 118%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.section-contact .container-1 p {
+    font-family: "Montserrat", "Arial", "Helvetica", "Sans-Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 118%;
+    color: #FFFFFF;
+    margin-top: -20px;
+}
+
+.section-contact .container-1 .icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    gap: 16px;
+}
+
+.section-contact .container-2 img {
+    width: 805px;
+}
+
+.section-contact .container-2 .vector-pointer {
+    position: absolute;
+    background-image: url("./assets/vector/pointer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 54%;
+    width: 93.21px;
+    height: 119.49px;
+    margin-top: 130px;
+    margin-left: 470px;
+}
+
+.section-contact .container-2 .vector-pointer p {
+    font-family: "Oks Free", "Arial", "Helvetica", "Sans-Serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-top: 66px;
+    margin-left: 24px;
 }
 
 ::-webkit-scrollbar {
