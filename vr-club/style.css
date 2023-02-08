@@ -79,7 +79,7 @@ header .container-2 a {
     border: 1px solid #FFFFFF;
     border-radius: 32px;
     text-decoration: none;
-    transition: 0.2s;    
+    transition: 0.2s;
 }
 
 header .container-2 a:hover {
@@ -159,7 +159,7 @@ main .container-1 div .select-game {
     background: #E32966;
     box-shadow: 0 0 5px #E329664D, 0 0 20px #E329664D, 0 0 30px #E329664D, 0 0 30px #E329664D;
     border-radius: 32px;
-    transition: 0.2s; 
+    transition: 0.2s;
 }
 
 main .container-1 div .select-game:hover {
@@ -305,7 +305,7 @@ main .container-2 {
     font-weight: 400;
     font-size: 32px;
     line-height: 118%;
-    color: #FFFFFF;    
+    color: #FFFFFF;
 }
 
 .section-about .container-2 p {
@@ -314,7 +314,7 @@ main .container-2 {
     font-weight: 400;
     font-size: 18px;
     line-height: 118%;
-    color: #FFFFFF;    
+    color: #FFFFFF;
 }
 
 .section-games {
@@ -564,6 +564,7 @@ main .container-2 {
     width: 300px;
     height: 94px;
     background: #1F1F22;
+    user-select: none;
 }
 
 .section-prices .table .container-2 {
@@ -614,7 +615,83 @@ main .container-2 {
 .section-prices .button div:hover {
     transform: scale(1.1);
     box-shadow: 0 0 15px #d93bc9, 0 0 35px #d93bc9, 0 0 20px #d93bc9, 0 0 20px #d93bc9;
+}
 
+.section-gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-gallery div {
+    display: flex;
+}
+
+.section-gallery .title {
+    align-items: center;
+    height: 8%;
+    margin-left: 4%;
+}
+
+.section-gallery .content {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-gallery .content img {
+    width: 764px;
+    height: 399px;
+}
+
+.section-gallery .content > div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(72.18% 43.92% at 50% 93.92%, #A40A79 0%, #00000000 100%), radial-gradient(37.71% 30.53% at 4.78% 4.31%, #008DF3 0%, #00000000 100%), radial-gradient(51.22% 43.71% at 98.22% 1.22%, #DC18C8 0%, #00000000 100%), #162bed80;
+    opacity: 0.9;
+    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+    width: 446.61px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.section-gallery .content div .text {
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.section-gallery .content div .text p {
+    font-family: "Montserrat", "Arial", "Helvetica", "Sans-Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 118%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 16px 80px;
+    text-align: justify;
+}
+
+.section-gallery .content div .interact {
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-gallery .content div .interact div {
+    filter: brightness(100);
+}
+
+.section-gallery .content div .interact p {
+    font-family: "Montserrat", "Arial", "Helvetica", "Sans-Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.section-gallery .content div .interact p strong {
+    font-size: 26px;
 }
 
 ::-webkit-scrollbar {
@@ -622,13 +699,13 @@ main .container-2 {
 }
 
 ::-webkit-scrollbar-track {
-    background: #6a6969; 
+    background: #6a6969;
 }
-   
+
 ::-webkit-scrollbar-thumb {
-    background: #3d3d3d; 
+    background: #3d3d3d;
 }
-  
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #928e8e; 
+    background: #928e8e;
 }
