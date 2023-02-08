@@ -830,7 +830,6 @@ footer .bg .container-2 p {
     cursor: pointer;
 }
 
-
 ::-webkit-scrollbar {
     width: 11px;
 }
@@ -846,3 +845,5 @@ footer .bg .container-2 p {
 ::-webkit-scrollbar-thumb:hover {
     background: #928e8e;
 }
+
+/* by Gabriel: https://github.com/gabrielzinx */
